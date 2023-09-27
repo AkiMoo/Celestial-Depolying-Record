@@ -21,3 +21,12 @@ Local Security Authority protection
 
 Finally,
 ![image](https://github.com/AkiMoo/Celestial-Depolying-Record/assets/32764968/466ce5dd-e996-44b1-a797-933ec65d313c)
+
+# Second fix "cd ~/celestial // docker build -f compile.Dockerfile -t celestial-make ."
+
+socket need root authorized, so it need to switch to root.
+
+and another problem is go & golang
+1, apt install golang-go
+answer in here: https://blog.csdn.net/m0_56203480/article/details/127637912
+2, https://www.cnblogs.com/zhangmingcheng/p/15870370.html cant fix
