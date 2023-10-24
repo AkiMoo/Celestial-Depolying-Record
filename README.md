@@ -36,6 +36,13 @@ ENTRYPOINT 指令用于指定容器启动（执行 docker run <image>）时的�
 #### go.mod 是Go语言的官方包管理工具，用于解决之前没有地方记录依赖包具体版本的问题，方便依赖包的管理。Go.mod其实就是一个Modules，关于Modules的官方定义为：Modules是相关Go包的集合，其中包含了它们的依赖关系和版本信息，它们被组织在一起，并以一种允许Go语言编译器、测试工具和其他工具访问它们的方式进行管理。在Go语言中，使用Go.mod文件来定义项目的依赖关系，并且在编译项目时，Go会自动下载和安装所需要的依赖包及其版本信息。
 #### 为了确保一致性构建，Go引入了go.mod文件来标记每个依赖包的版本，在构建过程中go命令会下载go.mod中的依赖包，下载的依赖包会缓存在本地，以便下次构建。 考虑到下载的依赖包有可能是被黑客恶意篡改的，以及缓存在本地的依赖包也有被篡改的可能，单单一个go.mod文件并不能保证一致性构建。
 
+checkbox.py应该是区域框定
+configuration.py是部分定义，其他py文件引用他
+connection.py是
+
+
+
+
 On Wmware Ubuntu 18.04
 # First Fix "Virtualized Intel VT-x/EPT is not supported on this platform. Continue without virtualized Intel VT-x/EPT"
 1, Windows Task Manager Check *Virtualized*
