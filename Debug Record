@@ -1,0 +1,2 @@
+1，run_resnet_patternnet报错参数数量不对，初步估计是pl(lightning module)的库函数问题，又或者，三个模型对应的参数不一样，作者每次都要在此处修改参数的数量？
+2，run_resnet_resics45报错找不到resics45（split）.txt，建议排查
