@@ -160,3 +160,5 @@ Satellite-Based Computing Networks with Federated Learning
 在近地轨道（LEO）巨型星座中，存在相关的用例，例如基于卫星成像的推理，其中大量卫星在不共享其本地数据集的情况下协作训练机器学习模型。为了解决这个问题，我们提出了一组基于联合学习（FL）的新算法，包括一种基于FedAvg的新型异步FL过程，该过程在异构场景下表现出比现有技术更好的鲁棒性。基于MNIST和CIFAR-10数据集的广泛数值评估突出了所提出方法的快速收敛速度和出色的渐近测试精度。
 Ground-Assisted Federated Learning in LEO Satellite Constellations
 
+近地轨道（LEO）卫星的大规模部署收集了大量的地球图像和传感器数据，这可以使机器学习（ML）能够应对实时灾害导航和减灾等全球挑战。然而，由于下行链路带宽有限、连接稀疏以及图像分辨率的正则化约束，下载所有高分辨率图像并在地面上训练这些ML模型通常是不可行的。为了应对这些挑战，我们利用联合学习（FL），地面站和卫星在不共享卫星上捕获的图像的情况下协作训练全球ML模型。我们展示了在卫星和地面站中应用现有FL算法的基本挑战，并提出了一个优化问题，该问题捕捉了过时和空闲之间的独特权衡。我们提出了一种新的FL框架，称为FedSpace，该框架根据卫星轨道基于确定性和时变连通性动态调度模型聚合。基于真实世界卫星图像和卫星网络的广泛数值评估表明，与最先进的FL算法相比，FedSpace将训练时间缩短了1.7天（38.6%）。
+FedSpace: An Efficient Federated Learning Framework at Satellites and Ground Stations
